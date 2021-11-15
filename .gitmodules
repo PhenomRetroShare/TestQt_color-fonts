@@ -1,0 +1,3 @@
+[submodule "color-fonts"]
+	path = color-fonts
+	url = https://github.com/googlefonts/color-fonts.git

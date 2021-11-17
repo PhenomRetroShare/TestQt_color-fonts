@@ -16,7 +16,7 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <layout class="QHBoxLayout" name="horizontalLayout">
+     <layout class="QHBoxLayout" name="hl_Font">
       <item>
        <widget class="QLabel" name="lbl_FontChooser">
         <property name="text">
@@ -44,20 +44,32 @@
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="pb_ResetText">
-      <property name="toolTip">
-       <string>Clear text zone and add the defaut one.</string>
-      </property>
-      <property name="text">
-       <string>Reset to default Text</string>
-      </property>
-     </widget>
+     <layout class="QHBoxLayout" name="hl_Block">
+      <item>
+       <widget class="QComboBox" name="cbx_BlockChooser">
+        <property name="toolTip">
+         <string>Current characters Block.</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="le_CharCode">
+        <property name="toolTip">
+         <string>Enter here a char code in hexadecimal to find its block.</string>
+        </property>
+        <property name="placeholderText">
+         <string>Enter here a char code in hexadecimal to find its block.</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
     <item>
      <widget class="QTextEdit" name="te_Text"/>
     </item>
    </layout>
   </widget>
+  <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <resources/>
  <connections/>

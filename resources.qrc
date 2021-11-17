@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="UCB">unic_char_blocks.json</file>
+    </qresource>
+</RCC>
